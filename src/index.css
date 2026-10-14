@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  --color-primary: #012d1d;
+  --color-primary-container: #1b4332;
+  --color-primary-fixed: #c1ecd4;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #86af99;
+
+  --color-secondary: #765a05;
+  --color-secondary-container: #ffd87c;
+  --color-secondary-fixed: #ffdf96;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #795d08;
+
+  --color-surface: #f6fbf5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f0f5f0;
+  --color-surface-container: #ebefea;
+  --color-surface-container-high: #e5e9e4;
+  --color-surface-container-highest: #dfe4df;
+
+  --color-on-surface: #181d1a;
+  --color-on-surface-variant: #414844;
+  --color-outline: #717973;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(2.25rem, 4vw, 3.5rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.font-headline-lg {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  font-weight: 600;
+}
+
+.font-headline-md {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(1.4rem, 2.5vw, 1.875rem);
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+.font-headline-sm {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.375rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+.font-title-lg {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.font-title-md {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.font-body-lg {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+.font-body-md {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.font-body-sm {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.font-label-md {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+
+.font-label-sm {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-size: 0.6875rem;
+  line-height: 0.875rem;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Ceylon Compass - Authentic Expeditions",
+  "description": "Bespoke luxury expeditions and private curated travel through the historic citadels, misty tea highlands, and golden coasts of Sri Lanka.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
